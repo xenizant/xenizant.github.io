@@ -16,19 +16,57 @@
 .body {
     font-family: 'Roboto Slab', Arial, sans-serif;
     background-color: var(--color-light);
-    color: var(--color-grey);
+    color: var(--color-dark);
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', Arial, sans-serif;
-    color: var(--color-navy);
 }
 
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+h4 {font-size: 1.5em;}
+h5 {font-size: 1.25em;}
+h6 {font-size: 1em;}
+
 .header {
-    background-color: var(--color-navy);
+    align-items: center;
+    background: linear-gradient(to right, var(--color-navy), var(--color-accent));
     color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
 }
 
 .menu {
-    
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__item {
+}
+
+.menu__link {
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: var(--color-navy);
+}
+
+.hero {
+    align-items: center;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.footer {
+    padding: 1em;
 }
