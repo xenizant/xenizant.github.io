@@ -13,10 +13,22 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', Arial, sans-serif;
-}
-
 .body {
     font-family: 'Roboto Slab', Arial, sans-serif;
+    background-color: var(--color-light);
+    color: var(--color-grey);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: var(--color-navy);
+}
+
+.header {
+    background-color: var(--color-navy);
+    color: var(--color-light);
+}
+
+.menu {
+    
 }
