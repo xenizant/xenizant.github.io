@@ -1,5 +1,10 @@
 :root {
-
+    --color-white:    #ffffff;    /* Base background */
+    --color-dark:     #000014;    /* Primary text color */
+    --color-navy:     #000080;    /* Header/Footer background */
+    --color-accent:   #0080ff;    /* Accent color for buttons/links */
+    --color-light:    #ebebff;    /* Light background for sections, cards */
+    --color-grey:     #767689;    /* Secondary text color */
 }
 
 * {
