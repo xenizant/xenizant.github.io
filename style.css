@@ -108,6 +108,7 @@ h6 {font-size: 1em;}
 }
 
 .footer {
+    color: var(--color-navy);
     padding: 1em;
 }
 
