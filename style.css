@@ -16,7 +16,8 @@
 .body {
     font-family: 'Roboto Slab', Arial, sans-serif;
     background-color: var(--color-light);
-    color: var(--color-dark);
+    color: var(--color-gre);
+    line-height: 1.6;
     text-align: center;
 }
 
@@ -32,12 +33,20 @@ h5 {font-size: 1.25em;}
 h6 {font-size: 1em;}
 
 .header {
-    align-items: center;
     background-color: var(--color-light);
-    color: var(--color-light);
+    padding: 1em;
+}
+
+.header__container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    margin: auto;
+    width: 90%;
+}
+
+.header__image {
+    height: 50px;
 }
 
 .menu {
@@ -52,12 +61,12 @@ h6 {font-size: 1em;}
 }
 
 .menu__link {
-    color: var(--color-light);
+    color: var(--color-navy);
     text-decoration: none;
 }
 
 .menu__link:hover {
-    color: var(--color-navy);
+    color: var(--color-accent);
 }
 
 .hero {
@@ -66,6 +75,21 @@ h6 {font-size: 1em;}
     display: flex;
     justify-content: center;
     min-height: 400px;
+}
+
+.section {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    margin: 1em 1em 0;
+    padding: 1em;
+}
+
+.card {
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: 1em;
 }
 
 .footer {
@@ -79,4 +103,19 @@ h6 {font-size: 1em;}
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.button {
+    background-color: var(--color-accent);
+    border-radius: 5px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--color-navy);
 }

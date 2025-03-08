@@ -11,18 +11,77 @@
 </head>
 <body class="body">
     <header class="header">
-        <img src="images/header-logo.svg" alt="Xenizant logo">
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
-            </ul>
-        </nav>
+        <div class="header__container">
+            <img class="header__image" src="images/header-logo.svg" alt="Xenizant logo">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
         <section class="hero">
-            <div class="container">
-                <h1 class="hero__title">Adaptable by Design</h1>
+          <div class="hero__container">
+            <h1 class="hero__title">Welcome to Xenizant</h1>
+            <p class="hero__text">We deliver innovative front-end solutions that drive your digital success.</p>
+            <a class="button" href="services.html">Explore Our Services</a>
+          </div>
+        </section>
+        <section class="about section">
+          <div class="about__container">
+            <h2 class="about__title">About Us</h2>
+            <p class="about__text">
+              At Xenizant, we're passionate about creating dynamic and user-friendly front-end experiences.
+              Our mission is to blend creativity with technology, ensuring every project reflects our commitment to excellence.
+            </p>
+            <a class="button" href="about.html">Learn More</a>
+          </div>
+        </section>
+        <section class="services section">
+          <div class="services__container">
+            <h2 class="services__title">Our Services</h2>
+            <div class="services__items">
+              <article class="services__item card">
+                <h3 class="services__item-title">Responsive Design</h3>
+                <p class="services__item-text">We build adaptive designs that look great on every device.</p>
+              </article>
+              <article class="services__item card">
+                <h3 class="services__item-title">UI/UX Development</h3>
+                <p class="services__item-text">Our designs are both beautiful and functional, ensuring excellent user experiences.</p>
+              </article>
+              <article class="services__item card">
+                <h3 class="services__item-title">Performance Optimization</h3>
+                <p class="services__item-text">Fast, efficient, and effective front-end development for superior performance.</p>
+              </article>
             </div>
+            <a class="button" href="services.html">View All Services</a>
+          </div>
+        </section>
+        <section class="testimonials section">
+          <div class="testimonials__container">
+            <h2 class="testimonials__title">What Our Clients Say</h2>
+            <div class="testimonials__items">
+              <article class="testimonials__item card">
+                <p class="testimonials__item-text">
+                  "Xenizant completely transformed our digital presence. Their attention to detail and creative solutions exceeded our expectations."
+                </p>
+                <cite class="testimonials__item-author">- Alex, CEO of Company X</cite>
+              </article>
+              <article class="testimonials__item card">
+                <p class="testimonials__item-text">
+                  "Working with the team was a breeze. They delivered a sleek, user-friendly interface that truly stands out."
+                </p>
+                <cite class="testimonials__item-author">- Jamie, Product Manager at Company Y</cite>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="cta section">
+          <div class="cta__container">
+            <h2 class="cta__title">Ready to Elevate Your Digital Presence?</h2>
+            <a class="button" href="contact.html">Get in Touch</a>
+          </div>
         </section>
     </main>
     <footer class="footer">
