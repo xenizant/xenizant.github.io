@@ -34,7 +34,10 @@ h6 {font-size: 1em;}
 
 .header {
     background-color: var(--color-light);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
     padding: 1em;
+    width: 100%;
 }
 
 .header__container {
@@ -47,9 +50,6 @@ h6 {font-size: 1em;}
 
 .header__image {
     height: 50px;
-}
-
-.menu {
 }
 
 .menu__list {
@@ -69,9 +69,14 @@ h6 {font-size: 1em;}
     color: var(--color-accent);
 }
 
+.main {
+    padding-top: 82px;
+}
+
 .hero {
     align-items: center;
     background-color: var(--color-white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     min-height: 400px;
@@ -80,14 +85,15 @@ h6 {font-size: 1em;}
 .section {
     background-color: var(--color-white);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 1em 1em 0;
     padding: 1em;
 }
 
 .card {
-    background-color: var(--color-grey);
-    color: var(--color-white);
+    background-color: var(--color-light);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 1em;
     padding: 1em;
 }
