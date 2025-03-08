@@ -33,7 +33,7 @@ h6 {font-size: 1em;}
 
 .header {
     align-items: center;
-    background: linear-gradient(to right, var(--color-navy), var(--color-accent));
+    background-color: var(--color-light);
     color: var(--color-light);
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,7 @@ h6 {font-size: 1em;}
 }
 
 .menu__item {
+    margin-left: 2em;
 }
 
 .menu__link {
@@ -69,4 +70,13 @@ h6 {font-size: 1em;}
 
 .footer {
     padding: 1em;
+}
+
+.footer__link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
 }
