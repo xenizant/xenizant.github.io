@@ -32,10 +32,6 @@ h4 {font-size: 1.5em;}
 h5 {font-size: 1.25em;}
 h6 {font-size: 1em;}
 
-.header {
-    padding: 1em;
-}
-
 .header__container {
     align-items: center;
     display: flex;
@@ -45,7 +41,8 @@ h6 {font-size: 1em;}
 }
 
 .header__image {
-    height: 50px;
+    height: 80px;
+    margin: auto;
     position: relative;
     top: 4px;
 }
@@ -55,7 +52,7 @@ h6 {font-size: 1em;}
 }
 
 .menu__item {
-    margin: 0 1em;
+    margin: 0 2em;
 }
 
 .menu__link {
