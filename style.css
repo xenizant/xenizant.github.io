@@ -15,7 +15,7 @@
 
 .body {
     font-family: 'Roboto Slab', Arial, sans-serif;
-    background-color: var(--color-light);
+    background: linear-gradient(to right, var(--color-grey), var(--color-light), var(--color-grey));
     color: var(--color-gre);
     line-height: 1.6;
     text-align: center;
