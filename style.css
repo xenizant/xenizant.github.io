@@ -77,19 +77,22 @@ h6 {font-size: 1em;}
     background-color: var(--color-white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 1em 0 0;
-    padding: 1em;
+    padding: 1em 10%;
 }
 
 .card {
     background-color: var(--color-light);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--color-navy);
     margin-top: 1em;
     padding: 1em;
 }
 
 .services__items, .testimonials__items {
     display: flex;
+    margin: auto;
+    overflow: auto;
 }
 
 .services__item, .testimonials__item {
