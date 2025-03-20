@@ -26,12 +26,12 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-navy);
 }
 
-h1 {font-size: 2.5em;}
-h2 {font-size: 2em;}
-h3 {font-size: 1.75em;}
-h4 {font-size: 1.5em;}
-h5 {font-size: 1.25em;}
-h6 {font-size: 1em;}
+h1 {font-size: 2.5rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.75rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.25rem;}
+h6 {font-size: 1rem;}
 
 .header__container {
     align-items: center;
@@ -42,10 +42,10 @@ h6 {font-size: 1em;}
 }
 
 .header__image {
-    height: 80px;
+    height: 5rem;
     margin: auto;
     position: relative;
-    top: 4px;
+    top: .25rem;
 }
 
 .menu__list {
@@ -53,7 +53,7 @@ h6 {font-size: 1em;}
 }
 
 .menu__item {
-    margin: 0 2em;
+    margin: 0 2rem;
 }
 
 .menu__link {
@@ -68,25 +68,25 @@ h6 {font-size: 1em;}
 .hero {
     align-items: center;
     background-color: var(--color-white);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    min-height: 400px;
+    min-height: 25rem;
 }
 
 .section {
     background-color: var(--color-white);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 1em 0 0;
-    padding: 1em 10%;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+    margin: 1rem 0 0;
+    padding: 1rem 10%;
 }
 
 .card {
     background-color: var(--color-white);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 1em;
-    padding: 1em;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .services__items, .testimonials__items {
@@ -97,12 +97,12 @@ h6 {font-size: 1em;}
 
 .services__item, .testimonials__item {
     flex: 1;
-    margin: 1em;
+    margin: 1rem;
 }
 
 .footer {
     color: var(--color-navy);
-    padding: 1em;
+    padding: 1rem;
 }
 
 .footer__link {
@@ -115,11 +115,11 @@ h6 {font-size: 1em;}
 }
 
 .footer__social {
-    margin-bottom: 10px;
+    margin-bottom: .5rem;
 }
 
 .footer__social-link {
-    margin: 0 1em;
+    margin: 0 1rem;
     color: var(--color-navy);
     font-size: 24px;
     text-decoration: none;
@@ -131,13 +131,13 @@ h6 {font-size: 1em;}
 
 .button {
     background-color: var(--color-accent);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
     color: var(--color-white);
     cursor: pointer;
     display: inline-block;
-    margin-top: 1em;
-    padding: 10px 20px;
+    margin-top: 1rem;
+    padding: .5rem 1.25rem;
     text-decoration: none;
 }
 
