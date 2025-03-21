@@ -33,17 +33,19 @@ h4 {font-size: 1.5rem;}
 h5 {font-size: 1.25rem;}
 h6 {font-size: 1rem;}
 
-.header__container {
+.header {
     align-items: center;
+    background-color: var(--color-white);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
     display: flex;
+    height: 6rem;
     justify-content: center;
-    margin: auto;
-    width: 90%;
+    position: fixed;
+    width: 100%;
 }
 
 .header__image {
     height: 5rem;
-    margin: auto;
     position: relative;
     top: .25rem;
 }
@@ -63,6 +65,10 @@ h6 {font-size: 1rem;}
 
 .menu__link:hover {
     color: var(--color-accent);
+}
+
+.main {
+    padding-top: 6rem;
 }
 
 .hero {
