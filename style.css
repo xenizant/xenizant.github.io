@@ -67,7 +67,10 @@ h6 {font-size: 1rem;}
 
 .hero {
     align-items: center;
-    background-color: var(--color-white);
+    background-image: url(images/hero.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
@@ -89,15 +92,23 @@ h6 {font-size: 1rem;}
     padding: 1rem;
 }
 
-.services__items, .testimonials__items {
+.services__items, .team__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.services__item, .testimonials__item {
+.services__item, .team__item {
     flex: 1;
     margin: 1rem;
+}
+
+.services-item__image {
+    border-radius: .25rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin: auto;
+    width: 20rem;
 }
 
 .footer {
