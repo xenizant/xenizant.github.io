@@ -199,4 +199,8 @@ h6 {font-size: 1rem;}
     .header__image {
         height: 3rem;
     }
+
+    .main {
+        padding-top: 4rem;
+    }
 }
