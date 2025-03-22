@@ -94,6 +94,12 @@ h6 {font-size: 1rem;}
     min-height: 25rem;
 }
 
+.hero__image {
+    height: auto;
+    min-width: 25rem;
+    max-width: 80%;
+}
+
 .section {
     background-color: var(--color-white);
     box-shadow: var(--box-shadow);
