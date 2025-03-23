@@ -16,7 +16,7 @@
 }
 
 .body {
-    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-family: Inter, Arial, sans-serif;
     background-color: var(--color-light);
     color: var(--color-dark);
     line-height: 1.6;
@@ -24,7 +24,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Fira Code', Arial, sans-serif;
     color: var(--color-navy);
 }
 
