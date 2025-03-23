@@ -92,6 +92,7 @@ h6 {font-size: 1rem;}
     display: flex;
     justify-content: center;
     min-height: 25rem;
+    padding: 1rem 10%;
 }
 
 .hero__image {
@@ -204,6 +205,11 @@ h6 {font-size: 1rem;}
 
     .header__image {
         height: 3rem;
+    }
+
+    .hero {
+        min-height: 20rem;
+        padding: 1rem 5%;
     }
 
     .section {
