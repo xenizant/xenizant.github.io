@@ -119,6 +119,15 @@ h6 {font-size: 1rem;}
     padding: 1rem;
 }
 
+.team__link {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.team__link:hover {
+    text-decoration: underline;
+}
+
 .services__items, .team__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
