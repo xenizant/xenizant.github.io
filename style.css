@@ -1,3 +1,12 @@
+/* ==========================================================================
+   1. Base & Reset
+   2. Typography
+   3. Layout & Grid
+   4. Components (Header, Footer, Cards, etc.)
+   5. Utilities
+   6. Media Queries
+   ========================================================================== */
+
 :root {
     --color-white:    #ffffff;    /* Base background */
     --color-dark:     #000014;    /* Primary text color */
@@ -6,7 +15,20 @@
     --color-light:    #ebebff;    /* Light background for sections, cards */
     --color-grey:     #767689;    /* Secondary text color */
 
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+    
+    --font-primary: 'Inter', Arial, sans-serif;
+    --font-heading: 'Fira Code', Arial, sans-serif;
+    
     --box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.1);
+
+    /* Add more semantic variables */
+    --border-radius-sm: 0.25rem;
+    --border-radius-md: 0.5rem;
+    --transition-default: color 0.3s ease, background-color 0.3s ease;
 }
 
 * {
@@ -15,7 +37,7 @@
     box-sizing: border-box;
 }
 
-.body {
+body {
     font-family: Inter, Arial, sans-serif;
     background-color: var(--color-light);
     color: var(--color-dark);
@@ -34,6 +56,10 @@ h3 {font-size: 1.75rem;}
 h4 {font-size: 1.5rem;}
 h5 {font-size: 1.25rem;}
 h6 {font-size: 1rem;}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
 
 .header {
     align-items: center;
@@ -78,7 +104,7 @@ h6 {font-size: 1rem;}
 }
 
 .menu__link, .button, .footer__social-link {
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: var(--transition-default);
 }
 
 .main {
@@ -113,7 +139,7 @@ h6 {font-size: 1rem;}
 
 .card {
     background-color: var(--color-white);
-    border-radius: .5rem;
+    border-radius: var(--border-radius-md);
     box-shadow: var(--box-shadow);
     margin-top: 1rem;
     padding: 1rem;
@@ -140,7 +166,7 @@ h6 {font-size: 1rem;}
 }
 
 .card__image {
-    border-radius: .25rem;
+    border-radius: var(--border-radius-sm);
     box-shadow: var(--box-shadow);
     height: auto;
     margin: auto;
@@ -183,7 +209,7 @@ h6 {font-size: 1rem;}
 
 .button {
     background-color: var(--color-accent);
-    border-radius: .25rem;
+    border-radius: var(--border-radius-sm);
     box-shadow: var(--box-shadow);
     color: var(--color-white);
     cursor: pointer;
@@ -200,6 +226,37 @@ h6 {font-size: 1rem;}
 .button:focus {
     outline: 2px dashed var(--color-accent);
     outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Layout Components
+   ========================================================================== */
+
+   @media (max-width: 480px) {
+    /* Styles for mobile phones */
+    .hero__logo {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .menu__item {
+        margin: 0 0.5rem;
+    }
+}
+
+/* Then scale up */
+@media (min-width: 481px) {
+    .hero {
+        min-height: 22rem;
+        padding: 1rem 8%;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero {
+        min-height: 25rem;
+        padding: 1rem 10%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -230,5 +287,13 @@ h6 {font-size: 1rem;}
 
     .main {
         padding-top: 3.75rem;
+    }
+}
+
+/* Add additional media queries */
+@media (max-width: 992px) {
+    /* Styles for tablets in landscape */
+    .hero {
+        min-height: 22rem;
     }
 }
